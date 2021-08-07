@@ -9,4 +9,9 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\PratikCode.Payment.Core\PratikCode.Payment.Core.csproj" />
+      <ProjectReference Include="..\PratikCode.Payment.Infrastructure\PratikCode.Payment.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

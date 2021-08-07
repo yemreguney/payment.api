@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PratikCode.Payment.Api", "PratikCode.Payment.Api\PratikCode.Payment.Api.csproj", "{9F102FA5-D60C-44D8-AF19-79209E7E54FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PratikCode.Payment.Core", "PratikCode.Payment.Core\PratikCode.Payment.Core.csproj", "{74C1CBAF-71A4-4C91-9F3E-D27D30178B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PratikCode.Payment.Infrastructure", "PratikCode.Payment.Infrastructure\PratikCode.Payment.Infrastructure.csproj", "{2AECBBA4-A550-4993-A548-F8FEB5C9FCA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{9F102FA5-D60C-44D8-AF19-79209E7E54FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F102FA5-D60C-44D8-AF19-79209E7E54FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F102FA5-D60C-44D8-AF19-79209E7E54FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C1CBAF-71A4-4C91-9F3E-D27D30178B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C1CBAF-71A4-4C91-9F3E-D27D30178B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C1CBAF-71A4-4C91-9F3E-D27D30178B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C1CBAF-71A4-4C91-9F3E-D27D30178B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AECBBA4-A550-4993-A548-F8FEB5C9FCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AECBBA4-A550-4993-A548-F8FEB5C9FCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AECBBA4-A550-4993-A548-F8FEB5C9FCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AECBBA4-A550-4993-A548-F8FEB5C9FCA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
